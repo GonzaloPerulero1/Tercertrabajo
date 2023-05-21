@@ -20,6 +20,7 @@ header{
 }
 .hero{
     background-color: aquamarine;
+    display: flex;
 }   
 .seccionDos{
     background-color: cornflowerblue;
