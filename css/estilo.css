@@ -33,6 +33,7 @@ header{
 }
 .ourVision{
     background-color: coral;
+    display: flex;
 }
 .pasos{
     background-color:chocolate;
