@@ -13,6 +13,10 @@ a{
 ul{
     list-style-type: none;
 }
+img{
+    width: 25%;
+}
+/* Estilando los contenedores principales */
 header{
     background-color: aqua;
     display: flex;
@@ -24,6 +28,8 @@ header{
 }   
 .seccionDos{
     background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
 }
 .ourVision{
     background-color: coral;
@@ -33,4 +39,12 @@ header{
 }
 .chose{
     background-color: darkslategray;
+}
+/* subcontenedores de los principales */
+
+.seccionDos .contenedorCards{
+    display: flex;
+}
+.seccionDos .alinearDeADos{
+    display: flex;
 }
