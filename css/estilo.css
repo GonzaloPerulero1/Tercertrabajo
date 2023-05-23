@@ -40,6 +40,7 @@ header{
 }
 .chose{
     background-color: darkslategray;
+    display: flex;
 }
 /* subcontenedores de los principales */
 
